@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    font-family: Georgia;
+    background-image: url(images/fondo.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#Encabezado {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-image: url(images/Portada1.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.link {
+    font-family: Georgia;
+    font-style: italic;
+    color: rgb(14, 97, 222);
+}
+
+#link1 {
+    background-color: aliceblue;
+    border: black;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.link:hover {
+    color: rgb(130, 9, 134);
+    rgb(234, 0, 255)rgb(174, 3, 190);
+}
+
+#Titulo {
+    color: aliceblue;
+    text-decoration: underline;
+    text-shadow: 2px 2px 20px black;
+}
+
+h2 {
+    color: aliceblue;
+    text-shadow: 2px 2px 20px black;
+}
+
+#Cuerpo {
+    margin-top: 150px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Pie {
+    position: bottom;
+    padding: 20px;
+    background-color: rgb(47, 44, 44);
+}
+
+#textoPie {
+    text-align: center;
+    color: aliceblue;
+}
+
+.Contacto {
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 20%;
+    padding: 5px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 20px black;
+    text-decoration: underline;
+}
+
+.contactoTexto {
+    color: aliceblue;
+    text-decoration: underline;
+    height: 50px;
+    display: inline-block;
+    margin-left: 20px;
+}
+#contactos {
+    display: flex;
+    justify-content: space-between;
+}
+#izquierda {
+    width: 50%;
+    height: 600px;
+    background-color: blue;
+}
+#derecha {
+    width: 50%;
+    height: 600px;
+    background-color: green;
+}
+#ubicacion {
+    
+}
