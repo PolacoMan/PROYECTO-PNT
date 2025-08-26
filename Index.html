@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
     <link rel="stylesheet" href="Styles.css">
     <Title>El estudio del grupo 8</title>
     <link rel="icon" type="image//x-icon" href="images/icono.png">
@@ -12,9 +13,9 @@
 
 <body>
     <div id="Encabezado">
-        <h1 id="Titulo">Estudio saraza</h1>
+        <h1 class ="titulo">Estudio saraza</h1>
         <br>
-        <h2>El estudio de abogados número 1</h2>
+        <h2>El estudio jurídico número 1 del país</h2>
         <br>
         <br>
         <a class="link" id="link1" href="#Pie" target="_self">Contactanos</a>
@@ -22,34 +23,42 @@
 
 
     <div id="Cuerpo">
-        <div id="izquierda">
-            <img src="" id="ubicacion">
-                <p class="contactoTexto"></p>
-        </div>
-
-        <div id="derecha"></div>
+        <section>
+            <article id="izquierda">
+                <video src="/images/abogados1.mp4" muted loop autoplay width="500px" id="estudio"></video>
+                <p class="contexto1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatum voluptates earum quo temporibus id? Amet accusamus debitis at impedit atque voluptatum, cupiditate, dignissimos animi suscipit aliquid, voluptatibus minima laboriosam?</p>
+            </article>
+            <article id="derecha">
+                <p class="contexto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatum voluptates earum quo temporibus id? Amet accusamus debitis at impedit atque voluptatum, cupiditate, dignissimos animi suscipit aliquid, voluptatibus minima laboriosam?</p>
+                <video src="/images/abogado.mp4" muted loop autoplay width="500px" id="estudio"></video>
+            </article>
+        </section>
     </div>
 
 
-    <div id="Pie">
+    <footer id="Pie">
         <h3>Nuestro contacto</h3>
+        <hr style="color: aliceblue;">
+        <br>
+        <br>
         <div id="contactos">
-            <div id="c1">
+            <div>
                 <img src="images/telefono.png" class="Contacto">
-                <p class="contactoTexto">llamanos</p>
+                <p class="contactoTexto"><a href="tel: +5401138595555" id="c1" class="link">Llamanos</a></p>
             </div>
-            <div id="c2">
+            <div>
                 <img src="images/mail.png" class="Contacto">
-                <p class="contactoTexto">escribinos</p>
+                <p class="contactoTexto"><a href="mailto:aguszaku@gmail.com" id="c2" class="link">Escribinos</a></p>
             </div>
-            <div id="c3">
+            <div>
                 <img src="images/whatsapp.png" class="Contacto">
-                <p class="contactoTexto"><a href="https://wa.me/#######">Chateá con nosotros</a></p>
+                <p class="contactoTexto"><a href="https://wa.me/#######" target="_blank" id="c3" class="link">Chateá con
+                        nosotros</a></p>
             </div>
         </div>
         <p id="textoPie">© 2025 Equipo 8 | Todos los derechos reservados. <a class="link" target="_blank"
                 href="politicas.html">Política de Privacidad</a></p>
-    </div>
+    </footer>
 </body>
 
 </html>
